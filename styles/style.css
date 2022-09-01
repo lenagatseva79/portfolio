@@ -1,0 +1,10 @@
+/*font-family: 'Oooh Baby', cursive;
+font-family: 'Poppins', sans-serif; */
+h1 {
+    font-family: 'Oooh Baby', cursive;
+    font-weight: bold;
+}
+ p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+ }
