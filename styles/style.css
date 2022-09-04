@@ -3,8 +3,25 @@ font-family: 'Poppins', sans-serif; */
 h1 {
     font-family: 'Oooh Baby', cursive;
     font-weight: bold;
+    font-size: 100px;
 }
- p {
+ p,h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
  }
+.hero {
+    background-color: #FCFFE7;
+    text-align: center;
+}
+.hero p {
+    font-size: 36px;
+    margin: 0;
+}
+.hero h2 {
+    font-size: 24px;
+    line-height: 2;
+}
+btn {
+    border-radius: 4px;
+    
+}
