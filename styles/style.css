@@ -1,17 +1,22 @@
-/*font-family: 'Oooh Baby', cursive;
-font-family: 'Poppins', sans-serif; */
+:root {
+    --branding-color: #FF869E;
+    --main-color: #FCFFE7;
+    --initials-font-family: 'Oooh Baby', cursive;
+    --main-font-family: 'Poppins', sans-serif;
+}
 h1 {
-    font-family: 'Oooh Baby', cursive;
+    font-family: var(--initials-font-family);
     font-weight: bold;
     font-size: 100px;
 }
  p,h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--main-font-family);
     font-weight: normal;
  }
 .hero {
-    background-color: #FCFFE7;
     text-align: center;
+    background-color: var(--main-color);
+    padding: 160px 0;
 }
 .hero p {
     font-size: 36px;
@@ -21,7 +26,28 @@ h1 {
     font-size: 24px;
     line-height: 2;
 }
-btn {
-    border-radius: 4px;
-    
+.btn {
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 13px 25px;
+    margin: 0px 10px;
+}
+.btn-primary {
+    background-color: var(--branding-color);
+    border-color: var(--branding-color);
+}
+.btn-branding {
+    color: var(--branding-color);
+    border-color: var(--branding-color);
+    background-color: white;
+}
+.btn-primary:hover {
+    color: var(--branding-color);
+    background-color: var(--main-color);
+    border-color: var(--branding-color);
+}
+.btn-branding:hover {
+    color: var(--main-color);
+    background-color: var(--branding-color);
 }
