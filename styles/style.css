@@ -4,18 +4,28 @@
     --initials-font-family: 'Oooh Baby', cursive;
     --main-font-family: 'Poppins', sans-serif;
 }
+body {
+    background-color: var(--main-color);
+}
 h1 {
     font-family: var(--initials-font-family);
     font-weight: bold;
     font-size: 100px;
+    line-height: 1.5;
 }
- p,h2 {
+ p, h2, h3, h4, h5, h6 {
     font-family: var(--main-font-family);
     font-weight: normal;
  }
+ h3 {
+    font-size: 28px;
+ }
+ p {
+    font-size: 16px;
+    line-height: 30px;
+ }
 .hero {
     text-align: center;
-    background-color: var(--main-color);
     padding: 160px 0;
 }
 .hero p {
@@ -24,7 +34,7 @@ h1 {
 }
 .hero h2 {
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.5;
 }
 .btn {
     border-radius: 7px;
@@ -50,4 +60,33 @@ h1 {
 .btn-branding:hover {
     color: var(--main-color);
     background-color: var(--branding-color);
+}
+.projects-homepage {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+}
+.btn-branding-outline {
+    color: var(--branding-color);
+    background-color: var(--main-color);
+    border-color: var(--branding-color);
+}
+.btn-branding-outline:hover {
+    color: var(--main-color);
+    background-color: var(--branding-color);
+}
+.project-description {
+    padding: 30px 60px 120px 60px;
+}
+@media (max-width: 960px) {
+    .project-description {
+        padding: 20px;
+        text-align: center;
+    }
+    .projects-homepage {
+        font-size: 48px;
+    }
+    h1 {
+        font-size: 70px;
+    }
 }
