@@ -1,6 +1,6 @@
 :root {
     --branding-color: #FF869E;
-    --main-color: #FCFFE7;
+    --main-color: #FFEECC;
     --initials-font-family: 'Oooh Baby', cursive;
     --main-font-family: 'Poppins', sans-serif;
 }
@@ -50,7 +50,7 @@ h1 {
 .btn-branding {
     color: var(--branding-color);
     border-color: var(--branding-color);
-    background-color: white;
+    background-color: var(--main-color);
 }
 .btn-primary:hover {
     color: var(--branding-color);
