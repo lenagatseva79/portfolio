@@ -8,8 +8,6 @@ body {
     background-color: var(--main-color);
 }
 h1 {
-    font-family: var(--initials-font-family);
-    font-weight: bold;
     font-size: 100px;
     line-height: 1.5;
 }
@@ -21,12 +19,19 @@ h1 {
     font-size: 28px;
  }
  p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
+ }
+ .name {
+    font-family: var(--initials-font-family);
+    font-weight: bold;
  }
 .hero {
     text-align: center;
     padding: 160px 0;
+    background-image: url(../images/pic6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero p {
     font-size: 36px;
@@ -45,21 +50,23 @@ h1 {
 }
 .btn-primary {
     background-color: var(--branding-color);
-    border-color: var(--branding-color);
+    border-color: rgb(85, 83, 83);
+    color: rgb(85, 83, 83);
 }
 .btn-branding {
-    color: var(--branding-color);
-    border-color: var(--branding-color);
+    color: rgb(85, 83, 83);
+    border-color: rgb(85, 83, 83);
     background-color: var(--main-color);
 }
 .btn-primary:hover {
-    color: var(--branding-color);
-    background-color: var(--main-color);
-    border-color: var(--branding-color);
+    color: black;
+    background: transparent;
+    border-color: black;
 }
 .btn-branding:hover {
     background-color: var(--branding-color);
-    color: white;
+    color: black;
+    border-color: black;
 }
 .projects-homepage {
     font-size: 32px;
@@ -77,6 +84,9 @@ h1 {
 }
 .project-description {
     padding: 30px 60px 120px 60px;
+}
+.about-section h1 {
+    font-size: 63px;
 }
 @media (max-width: 960px) {
     .project-description {
