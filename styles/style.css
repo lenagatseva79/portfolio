@@ -27,7 +27,7 @@ h1 {
  }
 .hero {
     text-align: center;
-    padding: 160px 0;
+    padding: 160px 20px;
     background-image: url(../images/pic6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,7 +84,12 @@ h1 {
 .project-description {
     padding: 30px 60px 120px 60px;
 }
-
+.content-container {
+     padding: 100px 20px;
+}
+.content {
+    margin: 30px 60px;
+}
 @media (max-width: 960px) {
     .project-description {
         padding: 20px;
@@ -95,5 +100,10 @@ h1 {
     }
     h1 {
         font-size: 70px;
+        line-height: 60px;
+    }
+    .content-container {
+        text-align: center;
+        padding: 0px 30px 30px 30px;
     }
 }
