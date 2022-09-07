@@ -1,6 +1,7 @@
 :root {
     --branding-color: #FF869E;
     --main-color: ##f7e8f0;
+    --second-color-buttons: rgb(85, 83, 83);
     --initials-font-family: 'Oooh Baby', cursive;
     --main-font-family: 'Poppins', sans-serif;
 }
@@ -10,6 +11,8 @@ body {
 h1 {
     font-size: 100px;
     line-height: 1.5;
+    font-family: var(--initials-font-family);
+    font-weight: bold;
 }
  p, h2, h3, h4, h5, h6 {
     font-family: var(--main-font-family);
@@ -21,10 +24,6 @@ h1 {
  p {
     font-size: 18px;
     line-height: 30px;
- }
- .name {
-    font-family: var(--initials-font-family);
-    font-weight: bold;
  }
 .hero {
     text-align: center;
@@ -48,30 +47,15 @@ h1 {
     padding: 13px 25px;
     margin: 0px 10px;
 }
-.btn-primary {
-    background-color: var(--branding-color);
-    border-color: rgb(85, 83, 83);
-    color: rgb(85, 83, 83);
-}
 .btn-branding {
-    color: rgb(85, 83, 83);
-    border-color: rgb(85, 83, 83);
+    color: var(--second-color-buttons);
+    border-color: var(--second-color-buttons);
     background-color: var(--main-color);
-}
-.btn-primary:hover {
-    color: black;
-    background: transparent;
-    border-color: black;
 }
 .btn-branding:hover {
     background-color: var(--branding-color);
     color: black;
     border-color: black;
-}
-.projects-homepage {
-    font-size: 32px;
-    font-weight: bold;
-    padding: 30px;
 }
 .btn-branding-outline {
     color: var(--branding-color);
@@ -82,12 +66,25 @@ h1 {
     color: white;
     background-color: var(--branding-color);
 }
+.btn-branding-second {
+    color: var(--second-color-buttons) ;
+    border-color: var(--second-color-buttons);
+    background-color: var(--branding-color);
+}
+.btn-branding-second:hover {
+    color: black;
+    border-color: black;
+    background-color: transparent;
+}
+.projects-homepage {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+}
 .project-description {
     padding: 30px 60px 120px 60px;
 }
-.about-section h1 {
-    font-size: 63px;
-}
+
 @media (max-width: 960px) {
     .project-description {
         padding: 20px;
