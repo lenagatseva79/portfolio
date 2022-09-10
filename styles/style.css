@@ -14,7 +14,7 @@ h1 {
     font-family: var(--initials-font-family);
     font-weight: bold;
 }
- p, h2, h3, h4, h5, h6 {
+ p, h2, h3, h4, h5, h6, a {
     font-family: var(--main-font-family);
     font-weight: normal;
  }
@@ -38,6 +38,10 @@ h1 {
 }
 .hero h2 {
     font-size: 24px;
+    line-height: 1.5;
+}
+.content h5 {
+    color: rgb(150, 146, 146);
     line-height: 1.5;
 }
 .btn {
