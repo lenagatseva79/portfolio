@@ -88,15 +88,18 @@ h1 {
     padding: 30px 60px 120px 60px;
 }
 .content-container {
-     padding: 100px 20px;
+     padding: 50px 20px;
 }
 .content {
-    margin: 30px 60px;
+    margin: 0px 60px;
 }
 .logo {
     font-family: var(--initials-font-family);
     font-weight: bold;
     font-size: 40px;
+}
+.navbar {
+    padding: 0;
 }
 .nav {
     padding: 20px 0;
@@ -117,6 +120,44 @@ h1 {
 .nav-item {
     padding: 0 15px;
 }
+.icon {
+    color: var(--branding-color);
+}
+.heading {
+    margin-top: 100px;
+}
+footer {
+    background-color: #FFD5D6;
+}
+footer .email-link {
+    text-decoration: none;
+    color: var(--branding-color);
+    font-size: 24px;
+    text-align: center;
+}
+footer .email-link:hover {
+    color: black;
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: rgb(250, 231, 242);
+    padding: 8px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
+.github-link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+.github-link:hover {
+    color: var(--branding-color);
+}
 @media (max-width: 960px) {
     .project-description {
         padding: 20px;
@@ -133,7 +174,14 @@ h1 {
         text-align: center;
         padding: 0px 30px 30px 30px;
     }
+    .content {
+        margin: 30px;
+    }
     .tool-name {
         display: none;
     }
+    .get-in-touch {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
 }
