@@ -112,6 +112,7 @@ h1 {
 }
 .nav-color {
     background-color: #FFD5D6;
+    box-shadow: 5px 2px 5px rgb(198, 180, 180);
 }
 .nav-item {
     padding: 0 15px;
@@ -134,5 +135,8 @@ h1 {
     }
     .tool-name {
         display: none;
+    }
+    nav .container {
+        margin: 0;
     }
 }
