@@ -64,6 +64,7 @@ h1 {
     color: var(--branding-color);
     background-color: var(--main-color);
     border-color: var(--branding-color);
+    transition: all 100ms ease-in-out;
 }
 .btn-branding-outline:hover {
     color: white;
@@ -127,7 +128,7 @@ h1 {
 .heading {
     margin-top: 100px;
 }
-.contact-page-footer {
+.coded-page-footer {
     margin-top: 60px;
     color: grey;
 }
@@ -145,6 +146,7 @@ footer .email-link {
     color: var(--branding-color);
     font-size: 24px;
     text-align: center;
+    transition: all 100ms ease-in-out;
 }
 footer .email-link:hover {
     color: black;
@@ -165,6 +167,7 @@ footer .social-links a:hover {
 .github-link {
     text-decoration: none;
     color: var(--main-color);
+    transition: all 100ms ease-in-out;
 }
 .github-link:hover {
     color: var(--branding-color);
