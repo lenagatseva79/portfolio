@@ -115,7 +115,7 @@ h1 {
 }
 .nav-color {
     background-color: #FFD5D6;
-    box-shadow: 5px 2px 5px rgb(198, 180, 180);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 .nav-item {
     padding: 0 15px;
@@ -126,8 +126,18 @@ h1 {
 .heading {
     margin-top: 100px;
 }
-footer {
-    background-color: #FFD5D6;
+.contact-page-footer {
+    margin-top: 60px;
+    color: grey;
+}
+.pink {
+    font-size: 20px;
+    color: var(--branding-color);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+.pink:hover {
+    color: black;
 }
 footer .email-link {
     text-decoration: none;
@@ -181,7 +191,7 @@ footer .social-links a:hover {
         display: none;
     }
     .get-in-touch {
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 130px;
+    margin-bottom: 30px;
 }
 }
