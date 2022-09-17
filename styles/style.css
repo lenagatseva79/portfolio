@@ -229,10 +229,17 @@ footer .contact-box h2 {
 }
 footer .contact-box p {
     margin: 0;
-    font-size: 17px;  
+    font-size: 13px;  
 }
 .navbar-brand {
     font-size: 30px;
+}
+footer .btn {
+        font-size: 15px;
+    }
+.work-button {
+    padding: 18px;
+    font-size: 17px;
 }
 }
 @media (min-width: 960px) {
