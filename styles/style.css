@@ -231,6 +231,9 @@ footer .contact-box p {
     margin: 0;
     font-size: 17px;  
 }
+.navbar-brand {
+    font-size: 30px;
+}
 }
 @media (min-width: 960px) {
     footer .btn {
