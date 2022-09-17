@@ -81,6 +81,13 @@ h1 {
     border-color: black;
     background-color: var(--branding-color);
 }
+.img-hover-link {
+    transition: all 100ms ease-in-out;
+}
+.img-hover-link:hover {
+    webkit-filter: blur(2px); 
+    filter: blur(2px);
+}
 .projects-homepage {
     font-size: 32px;
     font-weight: bold;
