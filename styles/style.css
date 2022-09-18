@@ -211,6 +211,9 @@ footer .contact-box h2 {
     .tool-name {
         display: none;
     }
+    .certification {
+        display: none;
+    }
     .get-in-touch {
     margin-top: 130px;
     margin-bottom: 30px;
