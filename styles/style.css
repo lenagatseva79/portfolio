@@ -56,29 +56,19 @@ h1 {
     border-color: var(--second-color-buttons);
     background-color: var(--main-color);
 }
-.btn-branding:hover {
-    background-color: var(--branding-color);
-    color: black;
-    border-color: black;
-}
 .btn-branding-outline {
     color: var(--branding-color);
     background-color: var(--main-color);
     border-color: var(--branding-color);
     transition: all 100ms ease-in-out;
 }
-.btn-branding-outline:hover {
+.btn:first-child:hover, :not(.btn-check)+.btn:hover {
     color: white;
     background-color: var(--branding-color);
 }
 .btn-branding-second {
     color: var(--second-color-buttons) ;
     border-color: var(--second-color-buttons);
-    background-color: var(--branding-color);
-}
-.btn-branding-second:hover {
-    color: black;
-    border-color: black;
     background-color: var(--branding-color);
 }
 .img-hover-link {
