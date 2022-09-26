@@ -72,11 +72,15 @@ h1 {
     background-color: var(--branding-color);
 }
 .img-hover-link {
-    transition: all 100ms ease-in-out;
+    opacity: 0.5;
 }
 .img-hover-link:hover {
-    webkit-filter: blur(2px); 
-    filter: blur(2px);
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 .projects-homepage {
     font-size: 32px;
