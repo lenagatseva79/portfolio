@@ -72,21 +72,26 @@
         <div class="row">
             <div class="col-3">
                 <h5 class="text-center certification">Introduction to Coding</h5>
-                <img src="images/certificate1.png" class="img-fluid border rounded-2" alt="cetrificate SheCodes Basics">
+                <img src="images/certificate1.png" class="img-fluid border rounded-2 certificate" id="myCertificate" alt="Cetrificate SheCodes Basics">
             </div>
             <div class="col-3">
                 <h5 class="text-center certification">Front End Development</h5>
-                <img src="images/certificate2.png" class="img-fluid border rounded-2" alt="cetrificate SheCodes Plus">
+                <img src="images/certificate2.png" class="img-fluid border rounded-2 certificate" id="myCertificate" alt="Cetrificate SheCodes Plus">
             </div>
             <div class="col-3">
                 <h5 class="text-center certification">Responsive Development</h5>
-                <img src="images/certificate3.png" class="img-fluid border rounded-2" alt="cetrificate SheCodes Responsive">
+                <img src="images/certificate3.png" class="img-fluid border rounded-2 certificate" id="myCertificate" alt="Cetrificate SheCodes Responsive">
             </div>
             <div class="col-3">
               <h5 class="text-center certification">React Development</h5>
-              <img src="images/certificate4.png" class="img-fluid border rounded-2" alt="cetrificate SheCodes React">
+              <img src="images/certificate4.png" class="img-fluid border rounded-2 certificate" id="myCertificate" alt="Cetrificate SheCodes React">
             </div>
         </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
     </div>
 
     <h3 class="text-center fw-bold m-5">Tools I use</h3>
@@ -181,5 +186,34 @@
           </p>
         </footer>
     </div>
+    <script>
+      
+var modal = document.getElementById('myModal');
+
+var images = document.getElementsByClassName('certificate');
+
+var modalImg = document.getElementById("img01");
+
+var captionText = document.getElementById("caption");
+
+
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+
+  img.onclick = function(evt) {
+    console.log(evt);
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+    </script>
 </body>
 </html>
