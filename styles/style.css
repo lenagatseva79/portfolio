@@ -71,17 +71,6 @@ h1 {
     border-color: var(--second-color-buttons);
     background-color: var(--branding-color);
 }
-.img-hover-link {
-    opacity: 0.5;
-}
-.img-hover-link:hover {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
 .projects-homepage {
     font-size: 32px;
     font-weight: bold;
@@ -143,11 +132,11 @@ h1 {
 .pink:hover {
     color: black;
 }
-#myCertificate {
+#myIMG {
     cursor: pointer;
     transition: 0.3s;
 }
-#myCertificate:hover {
+#myIMG:hover {
     opacity: 0.7;
 }
 .modal {
